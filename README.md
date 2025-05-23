@@ -51,7 +51,13 @@ pyenv
 Simply run the main script:
 
 ```matlab
->> MATLAB_main
+>> MATLAB_ML.m
+```
+
+or 
+
+```matlab
+>> MATLAB_PAML.m
 ```
 
 This will:

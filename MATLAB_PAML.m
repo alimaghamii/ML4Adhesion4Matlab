@@ -36,12 +36,13 @@ clear
 pyenv('Version', 'C:\Users\Utente\AppData\Local\Programs\Python\Python311\python.exe')
 
 % Step 1: Load the trained model
-model = py.joblib.load('Random_Forest_model_PAML.pkl');
+% model = py.joblib.load('Random_Forest_model_PAML.pkl');
+model = py.joblib.load('XGBoost_model_PAML.pkl');
 
 % Step 2: Prepare test input in MATLAB
 % Suppose we want to predict using 5 features:
-% [runload, alphaload, mu, k, n]
-X = [1.0, 1.5, 0.16, -1, 0.6, 10];  % 1 sample with 6 features
+% [runload, alphaload, mu, k, n, XPB]
+X = [3, 100, 3, -1, 1.6, 8];  % 1 sample with 6 features
 
 % Convert MATLAB numeric matrix to Python DataFrame
 pd = py.importlib.import_module('pandas');

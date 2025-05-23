@@ -23,18 +23,20 @@ clear
 
 %% then you need to Install scikit-learn for Python 3.11 and Pandas
 
-% 1. Open Command Prompt (Windows)
+%  Open Command Prompt (Windows)
 % Run the following (note the full path to your Python executable):
 
 % "C:\Users\YourName\AppData\Local\Programs\Python\Python311\python.exe" -m pip install scikit-learn
 % then run
 % "C:\Users\YourName\AppData\Local\Programs\Python\Python311\python.exe" -m pip install pandas
+% then run
+% "C:\Users\Utente\AppData\Local\Programs\Python\Python311\python.exe" -m pip install xgboost
 
 
 pyenv('Version', 'C:\Users\Utente\AppData\Local\Programs\Python\Python311\python.exe')
 
 % Step 1: Load the trained model
-model = py.joblib.load('Random_Forest_model_ML.pkl');
+model = py.joblib.load('XGBoost_model_ML.pkl');
 
 % Step 2: Prepare test input in MATLAB
 % Suppose we want to predict using 5 features:

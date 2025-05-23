@@ -48,13 +48,13 @@ pyenv
 
 ## 📊 Running the Code
 
-Simply run the main script:
+Simply run the ML script:
 
 ```matlab
 >> MATLAB_ML.m
 ```
 
-or 
+or the physic augmented one as:
 
 ```matlab
 >> MATLAB_PAML.m

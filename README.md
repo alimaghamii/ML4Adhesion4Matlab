@@ -1,5 +1,5 @@
 
-# ML4adhesion4Matlab
+# ML4Adhesion4Matlab
 
 A MATLAB-compatible version of the machine learning framework from the paper:
 
